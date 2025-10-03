@@ -1,5 +1,4 @@
 import re
-from datetime import datetime
 from flask import Flask, request, jsonify, render_template # type: ignore
 from dotenv import load_dotenv # type: ignore
 from huggingface_hub import InferenceClient # type: ignore
